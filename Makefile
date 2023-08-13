@@ -1,7 +1,7 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=oscam
-PKG_REV:=$(shell LC_ALL=C svn info ${PKG_SOURCE_URL} | sed -ne's/^Last Changed Rev: //p') #编译时获取最新源代码
+PKG_REV:=master
 PKG_VERSION:=1.20-$(PKG_REV)
 PKG_RELEASE:=1
 
